@@ -1,0 +1,133 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #1f1f1f;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background: #2a2a2a;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 80px;
+}
+
+h1 {
+  color: #ff1e1e;
+  margin: 0.5rem 0 0.2rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.fee-structure h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #ff3e3e;
+}
+
+.fees {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.column {
+  flex: 1;
+  background: #383838;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.column h3 {
+  text-align: center;
+  color: #f5b301;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #444;
+}
+
+.demo-fee {
+  text-align: center;
+  color: #00eaff;
+  margin: 1rem 0;
+}
+
+.personal-training {
+  background: #383838;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.personal-training h3 {
+  color: #f5b301;
+  text-align: center;
+}
+
+.timing {
+  background: #383838;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.timing h3 {
+  color: #f5b301;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #444;
+}
+
+footer h4 {
+  color: #f5b301;
+  margin-bottom: 0.5rem;
+}
+button {
+  background-color: #f5b301;
+  color: #000;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 5px;
+  margin-left: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ffd700;
+}
+
+.year-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+
